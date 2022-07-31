@@ -1,5 +1,9 @@
 const { Person } = require("./person");
 
-const person = new Person('Lucas');
+//require("./modules/path")
 
-console.log(person.sayMyName());
+//require("./modules/fs")
+
+require("./modules/http")
+
+const person = new Person('Lucas');

@@ -4,9 +4,9 @@
   "description": "Curso de node JS",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start:dev": "nodemon index.js"
   },
-  "author": "",
+  "author": "Lucas Menegatti",
   "license": "ISC",
   "devDependencies": {
     "nodemon": "^2.0.19"
